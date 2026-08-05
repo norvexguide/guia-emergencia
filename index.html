@@ -7,79 +7,91 @@
 <title>NORVEX | Guía de Emergencia</title>
 
 <style>
-
-body {
-    margin: 0;
-    min-height: 100vh;
-    background: #090909;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.contenedor {
-    width: 90%;
-    max-width: 420px;
-    text-align: center;
-    background: #111;
-    padding: 45px 25px;
-    border-radius: 20px;
-    border: 1px solid #c9a227;
-    box-shadow: 0 0 25px rgba(201,162,39,0.25);
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:linear-gradient(180deg,#050505,#111111);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:30px;
 }
 
-.logo-img {
-    width: 220px;
-    max-width: 90%;
-    margin-bottom: 15px;
-}
-.linea {
-    width: 80px;
-    height: 3px;
-    background: #d4af37;
-    margin: 20px auto;
-}
-
-h1 {
-    font-size: 26px;
-    margin-bottom: 15px;
+.contenedor{
+    width:100%;
+    max-width:480px;
+    background:#111;
+    border:1px solid #D4AF37;
+    border-radius:22px;
+    padding:45px 30px;
+    text-align:center;
+    box-shadow:0 0 30px rgba(212,175,55,.25);
 }
 
-p {
-    color: #cccccc;
-    font-size: 17px;
-    line-height: 1.6;
+.logo-img{
+    width:230px;
+    max-width:90%;
+    height:auto;
+    display:block;
+    margin:0 auto 25px;
 }
 
-.icono {
-    font-size: 55px;
-    margin: 20px 0;
+.linea{
+    width:90px;
+    height:3px;
+    background:#D4AF37;
+    margin:0 auto 30px;
+    border-radius:5px;
 }
 
-.boton {
-    display: block;
-    margin-top: 35px;
-    padding: 18px;
-    background: #d4af37;
-    color: #000;
-    text-decoration: none;
-    border-radius: 12px;
-    font-size: 19px;
-    font-weight: bold;
+.icono{
+    font-size:60px;
+    margin-bottom:20px;
 }
 
-.boton:hover {
-    background: #f2cc55;
+h1{
+    font-size:30px;
+    margin-bottom:20px;
+    color:white;
 }
 
-.footer {
-    margin-top: 30px;
-    font-size: 12px;
-    color: #777;
+p{
+    color:#d7d7d7;
+    font-size:17px;
+    line-height:1.7;
+    margin-bottom:35px;
 }
 
+.boton{
+    display:block;
+    width:100%;
+    padding:18px;
+    text-decoration:none;
+    background:#D4AF37;
+    color:#111;
+    font-size:20px;
+    font-weight:bold;
+    border-radius:12px;
+    transition:.25s;
+}
+
+.boton:hover{
+    background:#f0c94c;
+    transform:translateY(-2px);
+}
+
+.footer{
+    margin-top:35px;
+    font-size:13px;
+    color:#888;
+}
 </style>
 
 </head>
@@ -88,7 +100,7 @@ p {
 
 <div class="contenedor">
 
-<img src="logo-norvex.png" alt="Norvex" class="logo-img">
+<img src="logo-norvex.png" alt="Logo Norvex" class="logo-img">
 
 <div class="linea"></div>
 
@@ -97,16 +109,17 @@ p {
 <h1>Guía de Emergencia</h1>
 
 <p>
-Gracias por confiar en Norvex.<br><br>
-Accede a tu manual digital completo para conocer el funcionamiento y las recomendaciones de uso.
+Gracias por confiar en <strong>Norvex</strong>.<br><br>
+
+Aquí encontrarás el manual completo con las instrucciones de uso, recomendaciones y consejos para sacar el máximo partido a tu kit de emergencia.
 </p>
 
-<a class="boton" href="guia-emergencia.pdf">
+<a class="boton" href="guia-emergencia.pdf" target="_blank">
 📖 ABRIR GUÍA
 </a>
 
 <div class="footer">
-Norvex · Seguridad preparada para cualquier situación
+NORVEX · Preparados cuando más importa
 </div>
 
 </div>
