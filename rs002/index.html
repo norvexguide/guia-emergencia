@@ -1,0 +1,167 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NORVEX | Radio RS002</title>
+
+<link rel="icon" type="image/png" href="../logo-norvex.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:
+radial-gradient(circle at top,#5f4a13 0%,transparent 35%),
+linear-gradient(180deg,#050505,#111111);
+font-family:'Inter',sans-serif;
+padding:25px;
+color:white;
+}
+
+.contenedor{
+width:100%;
+max-width:470px;
+background:rgba(17,17,17,.92);
+border:1px solid rgba(212,175,55,.45);
+border-radius:24px;
+padding:45px 30px;
+text-align:center;
+backdrop-filter:blur(8px);
+box-shadow:
+0 0 40px rgba(212,175,55,.12),
+0 10px 35px rgba(0,0,0,.55);
+}
+
+.logo{
+position:relative;
+margin-bottom:20px;
+}
+
+.logo::before{
+content:"";
+position:absolute;
+left:50%;
+top:50%;
+width:210px;
+height:210px;
+transform:translate(-50%,-50%);
+background:radial-gradient(circle,rgba(212,175,55,.28),transparent 70%);
+filter:blur(20px);
+}
+
+.logo img{
+position:relative;
+width:230px;
+max-width:90%;
+}
+
+.linea{
+width:90px;
+height:3px;
+background:#D4AF37;
+margin:20px auto 30px;
+border-radius:10px;
+}
+
+h1{
+font-family:'Cinzel',serif;
+font-size:30px;
+margin-bottom:15px;
+}
+
+.modelo{
+display:inline-block;
+padding:8px 18px;
+border-radius:40px;
+border:1px solid rgba(212,175,55,.5);
+background:rgba(212,175,55,.08);
+color:#D4AF37;
+font-weight:600;
+margin-bottom:25px;
+}
+
+p{
+line-height:1.8;
+color:#d7d7d7;
+margin-bottom:35px;
+}
+
+.boton{
+display:block;
+background:#D4AF37;
+color:#111;
+padding:18px;
+border-radius:14px;
+text-decoration:none;
+font-weight:bold;
+font-size:19px;
+transition:.25s;
+}
+
+.boton:hover{
+background:#f0ca4d;
+transform:translateY(-2px);
+}
+
+.footer{
+margin-top:35px;
+font-size:13px;
+color:#888;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<div class="logo">
+<img src="../logo-norvex.png" alt="Norvex">
+</div>
+
+<div class="linea"></div>
+
+<h1>Radio de Emergencia</h1>
+
+<div class="modelo">
+MODELO RS002
+</div>
+
+<p>
+Gracias por confiar en <strong>Norvex</strong>.<br><br>
+
+Accede a la guía digital de tu radio RS002. 
+En ella encontrarás instrucciones de uso, funciones principales y recomendaciones para sacar el máximo rendimiento a tu equipo.
+</p>
+
+<a class="boton" href="guia-rs002.pdf" target="_blank">
+📖 ABRIR GUÍA RS002
+</a>
+
+<div class="footer">
+NORVEX · Preparados cuando más importa
+</div>
+
+</div>
+
+</body>
+</html>
+```
